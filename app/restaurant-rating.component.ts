@@ -24,7 +24,5 @@ export class RestaurantRatingComponent {
     this.restaurant.allWaitTimes.push(test2);
     this.restaurant.getAverageRating();
     this.restaurant.getAverageWaitTime();
-    // this.restaurant.ratingAverage = test
-    // this.restaurant.waitTimeAverage = test2
   }
 }

@@ -10,8 +10,8 @@ import { Restaurant } from './restaurant.model';
       <p>Specialty: {{ restaurant.specialty }}</p>
       <p>Address: {{ restaurant.address }}</p>
       <p>Price: {{  restaurant.price }}</p>
-      <p>Average Rating: {{ restaurant.ratingAverage }}</p>
-      <p>Average Wait Time: {{ restaurant.waitTimeAverage }}</p>
+      <p>Average Rating: {{ restaurant.ratingAverage + " stars" }}</p>
+      <p>Average Wait Time: {{ restaurant.waitTimeAverage + " min" }}</p>
     </div>
   `
 })
